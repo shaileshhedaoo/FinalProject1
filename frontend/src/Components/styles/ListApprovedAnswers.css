@@ -1,0 +1,40 @@
+/* src/Components/Answer/ListApprovedAnswers.css */
+.approved-answers-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .approved-answers-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .approved-answer-item {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .answer-content {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .answer-meta {
+    font-size: 0.9em;
+    color: #555;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .answer-author {
+    font-weight: bold;
+  }
+  
+  .answer-date {
+    font-style: italic;
+  }
+  
